@@ -28,13 +28,13 @@
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
-      <version>RELEASE</version>
+      <version>7.6.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
-      <version>RELEASE</version>
+      <version>5.8.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -71,10 +71,6 @@
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.0.0-M6</version>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
